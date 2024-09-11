@@ -7,7 +7,7 @@
     <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=développer+par +匚卄卂ᗪ尺ㄖ ." alt="">
 </p>
-<h1 align="center"> Alien-ultra-V69🦠👽</h1>
+<h1 align="center"> Alien-V666🦠👽</h1>
 </h1>
 <p align="center">  le lien du groupe est juste là 👇
 <p align="center"> 
@@ -17,7 +17,7 @@
 
 <br> 
 <p align="center">
-<a href="https://Wa.me/+243822809152"><img src="https://img.shields.io/badge/Contact KÉVIN-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://Wa.me/+243822809152"><img src="https://img.shields.io/badge/Contact Chadro-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://whatsapp.com/channel/0029VaivDmh4NVieblSgij2d"><img src="https://img.shields.io/badge/Join Official Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a 
 
@@ -29,6 +29,8 @@
  
 <a href=https://chadro-session-1.onrender.com>
   <img      src="https://img.shields.io/badge/SESSION_ID-blue" alt="Click Here to Get Pair-Code" width="110"></a>   
+
+  
 
 <a href='https://github.com/altesse066/Alien-ultra-V69-/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
