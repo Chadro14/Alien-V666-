@@ -915,7 +915,7 @@ senddocu(buffer)
                 replygcxeon(`*Send Broadcast To ${anu.length} Group Chat, End Time ${anu.length * 1.5} second*`)
                 for (let i of anu) {
                     await sleep(1500)
-                    let a = '👽' + `\n\n${text}\n\n` + '' + '\n\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇'
+                    let a = '👽' + `\n\n${text}\n\n` + '' + '\n\n\n> Chadro'
                     XeonBotInc.sendMessage(i, {
                         text: a,
                         contextInfo: {
@@ -923,7 +923,7 @@ senddocu(buffer)
                                 showAdAttribution: true,
                                 title: '*Broadcast By Owner*',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://telegra.ph/file/e699cb075e1a4bda4f208.jpg',
+                                thumbnailUrl: 'https://https://telegra.ph/file/26aae87c1132897112fc0.jpg',
                                 sourceUrl: global.link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -1253,7 +1253,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${ownername}`,
-                            thumbnailUrl: 'https://telegra.ph/file/e699cb075e1a4bda4f208.jpg',
+                            thumbnailUrl: 'https://telegra.ph/file/26aae87c1132897112fc0.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1273,7 +1273,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `Yt alvinblaste...13`,
                             body: `Cool avec 匚卄卂ᗪ尺ㄖ `,
-                            thumbnailUrl: 'https://telegra.ph/file/0f3a4498b60151e2248f5.jpg',
+                            thumbnailUrl: 'https://telegra.ph/file/26aae87c1132897112fc0.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
