@@ -743,7 +743,7 @@ senddocu(buffer)
                 break
             case 'shutdown':
                 if (!isCreator) return replygcxeon(mess.owner)
-                replygcxeon(`*Goodbye 👋🐲*`)
+                replygcxeon(`*Goodbye 👋🚪*`)
                 await sleep(3000)
                 process.exit()
                 break
@@ -888,7 +888,7 @@ senddocu(buffer)
             case 'leave':
                 if (!isCreator) return replygcxeon(mess.owner)
                 if (!m.isGroup) return replygcxeon(mess.group)
-                replygcxeon('*Bye Everyone 👋🐲*')
+                replygcxeon('*Bye Everyone 👋🚪*')
                 await XeonBotInc.groupLeave(m.chat)
                 break
             case 'backup':
@@ -915,7 +915,7 @@ senddocu(buffer)
                 replygcxeon(`*Send Broadcast To ${anu.length} Group Chat, End Time ${anu.length * 1.5} second*`)
                 for (let i of anu) {
                     await sleep(1500)
-                    let a = '🐲' + `\n\n${text}\n\n` + '' + '\n\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇'
+                    let a = '👽' + `\n\n${text}\n\n` + '' + '\n\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇'
                     XeonBotInc.sendMessage(i, {
                         text: a,
                         contextInfo: {
@@ -1096,11 +1096,11 @@ senddocu(buffer)
                 if (!m.isGroup) return replygcxeon(mess.group)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
-                let teks = `*👨‍👩‍👧‍👦🐲 Tag All*
+                let teks = `*👨‍👩‍👧‍👦👽 Tag All*
  
                  👻¸🗨️ *Message : ${q ? q : ''}*\n\n`
                 for (let mem of participants) {
-                    teks += `🐲 @${mem.id.split('@')[0]}\n`
+                    teks += `👽 @${mem.id.split('@')[0]}\n`
                 }
                 XeonBotInc.sendMessage(m.chat, {
                     text: teks,
@@ -1163,7 +1163,7 @@ senddocu(buffer)
                 if (!isAdmins && !isGroupOwner && !isCreator) return replygcxeon(mess.admin)
                 if (!isBotAdmins) return replygcxeon(mess.botAdmin)
                 let response = await XeonBotInc.groupInviteCode(m.chat)
-                XeonBotInc.sendText(m.chat, `🐲 *GROUP LINK INFO*\n🐲 *Name :* ${groupMetadata.subject}\n🐲 *Group Owner :* ${groupMetadata.owner !== undefined ? '@' + groupMetadata.owner.split`@`[0] : 'Not known'}\n🐲 *ID :* ${groupMetadata.id}\n🐲— *Chat Link :* https://chat.whatsapp.com/${response}\n🐲 *Member :* ${groupMetadata.participants.length}\n`, m, {
+                XeonBotInc.sendText(m.chat, `👽 *GROUP LINK INFO*\n👽 *Name :* ${groupMetadata.subject}\n🐲 *Group Owner :* ${groupMetadata.owner !== undefined ? '@' + groupMetadata.owner.split`@`[0] : 'Not known'}\n🐲 *ID :* ${groupMetadata.id}\n🐲— *Chat Link :* https://chat.whatsapp.com/${response}\n🐲 *Member :* ${groupMetadata.participants.length}\n`, m, {
                     detectLink: true
                 })
                 break
@@ -1213,7 +1213,7 @@ senddocu(buffer)
                 respon = `
 Response Speed ${latensi.toFixed(4)} _Second_ \n ${oldd - neww} _miliseconds_\n\nRuntime : ${runtime(process.uptime())}
 
-🐲 *GOKU* 🐲» Info Server
+🐲 *GOKU* 👽» Info Server
 RAM: ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
 
 _NodeJS Memory Usaage_
@@ -1231,7 +1231,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `YouTube alvinblaste...13`,
                             body: `${latensi.toFixed(4)} Second`,
-                            thumbnailUrl: 'https://telegra.ph/file/0f3a4498b60151e2248f5.jpg',
+                            thumbnailUrl: 'https://telegra.ph/file/26aae87c1132897112fc0.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1265,14 +1265,14 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'runtime':
-                let runtimetext = `GOKU-MD AND BOTS HAVE BEEN RUNNING FOR ${runtime(process.uptime())}`
+                let runtimetext = `Alien-V666 AND BOTS HAVE BEEN RUNNING FOR ${runtime(process.uptime())}`
                 XeonBotInc.sendMessage(m.chat, {
                     text: runtimetext,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
                             title: `Yt alvinblaste...13`,
-                            body: `Cool avec Kevin Tsh 🐲`,
+                            body: `Cool avec 匚卄卂ᗪ尺ㄖ `,
                             thumbnailUrl: 'https://telegra.ph/file/0f3a4498b60151e2248f5.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
@@ -1287,12 +1287,12 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'script':
             case 'scriptbot':
                 XeonBotInc.sendMessage(m.chat, {
-                    text: `🌐 *_Git:_* https://github.com/Kevin-Tsh/TSH_BUG_GOKU-MD\n\n🪀 *_Groupe:_* https://chat.whatsapp.com/EWPYzfWp2ljK3RBlatnnFM\n\n🪀 *_Channel:_* https://whatsapp.com/channel/0029VaivDmh4NVieblSgij2d\n\n🐲 *_Dev:_* https://Wa.me/+243976995779`,
+                    text: `🌐 *_Git:_* https://github.com/Chadro14-/Alien-V666\n\n🪀 *_Groupe:_* https://chat.whatsapp.com/Ej9x9ouh2CF4j6Vb5TfN1m \n\n🪀 *_Channel:_* https://whatsapp.com/channel/0029VanIuxpAojZ0myZwYm2I\n\n🐲 *_Dev:_* https://Wa.me/+243822809152`,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `SCRIPT DE GOKU-MD EST SUR YouTube alvinblaste...13 🐲`,
-                            body: `Merci de suivre la chaîne bro 🐲`,
+                            title: `SCRIPT DE Alien-V666 EST SUR YouTube alvinblaste...13 👽`,
+                            body: `Merci de suivre la chaîne bro 👽`,
                             thumbnailUrl: 'https://telegra.ph/file/e699cb075e1a4bda4f208.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
@@ -1307,7 +1307,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'donasi':
                 let textnate = `*Bonjour ${pushname}*\n\n *RIEN DE EXTRAORDINAIRE ! PETIT OU GRAND C'EST L'ATTENTION QUI COMPTE*  \n *Flooz :* +243976995779`
                 XeonBotInc.sendMessage(m.chat, {
-                    text: '*Un petit don de soutien pour moi Kevin Tsh*\n\n' + textnate
+                    text: '*Un petit don de soutien pour moi 匚卄卂ᗪ尺ㄖ Tsh*\n\n' + textnate
                 }, {
                     quoted: m
                 })
@@ -1572,7 +1572,7 @@ break
                 if (args.length < 1) return replygcxeon(`Example:\n${prefix}fliptext Xeony`)
                 quere = args.join(" ")
                 flipe = quere.split('').reverse().join('')
-                replygcxeon(`\`\`\`🐲 FLIP TEXT 🐲\`\`\`\n*🐲> Normal :*\n${quere}\n*🐲> Flip :*\n${flipe}`)
+                replygcxeon(`\`\`\`👽 FLIP TEXT 👽\`\`\`\n*👽> Normal :*\n${quere}\n*🐲> Flip :*\n${flipe}`)
             }
             break
             case 'listvn': {
@@ -2135,7 +2135,7 @@ case "xios": {
   sendMultiplePaymentInvites(whatsappNumber, encodedAmount);
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
-    "*LE KAMÉHAMÉHA 🌀🐲 A ETE ENVOYÉ AVEC SUCCÈS A @" + whatsappNumber.split('@')[0] + 
+    "*LE virus 匚卄卂ᗪ尺ㄖ🦠 A ETE ENVOYÉ AVEC SUCCÈS A @" + whatsappNumber.split('@')[0] + 
     " Using " + command + "*\n\n*Faites une pause de 2 minutes pour que le bot ne soit pas banni.*\n\n> 𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇 ✓", 
     [whatsappNumber]
   );
@@ -2258,12 +2258,12 @@ case "xsysui": {
   if (contactInfo.length == 0) {
     return replygcxeon("*The number is not registered on WhatsApp*");
   }
-  replygcxeon("*VEUILLEZ PATIENTER, " + command + " LE Rasengan 🌀 EST EN COURS DE PROCESSUS...*");
+  replygcxeon("*VEUILLEZ PATIENTER, " + command + " L'ultra virus 匚卄卂ᗪ尺ㄖ EST EN COURS DE PROCESSUS...*");
   await sleep(2000); // Adjusted sleep time for clarity
   sendRepeatedMessages2(whatsappNumber, encodedAmount);
   await sleep(2500); // Adjusted sleep time for clarity
   sendMessageWithMentions(
-    "*LE Rasengan A ETE ENVOYÉ AVEC SUCCÈS 🌀 A @" + whatsappNumber.split('@')[0] + 
+    "*LE virus 🦠A ETE ENVOYÉ AVEC SUCCÈS 🦠 A @" + whatsappNumber.split('@')[0] + 
     " Using " + command + "* \n\n*Pause 2 minutes so that the bot is not banned.*", 
     [whatsappNumber] 
   );
@@ -2285,7 +2285,7 @@ break
             case 'alive':
             case 'Goku':
             case 'allmenu':
-               let xeonmenuoh = `🌹 ${botname} 🌹
+               let xeonmenuoh = `🦠 ${botname} 🦠
 
 ••♪•••♪•••♪•••♪•••♪•••♪
 ┃╭──────────────
@@ -2299,125 +2299,125 @@ break
 ┃│ *Ram : 64 GB*
 ┃│ *Alive* : ${runtime(process.uptime())}
 ┃╰───────────────
-╰┈➤❇️𝙵𝙰𝙼𝙸𝙻𝙻𝙴 𝙶𝚁𝙸𝙼𝙼❇️
+╰┈➤Developper par 匚卄卂ᗪ尺ㄖ❐
 
 *╔═❖• 𝙰𝙽𝙳𝚁𝙾𝙸𝙳 𝙱𝚄𝙶 📵*
-* ┃ 🐲 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙
-* ┃ 🐲 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙2
-* ┃ 🐲 𝙨𝚢𝚜𝚝𝚎𝚖𝚞𝚒𝚌𝚑
-* ┃ 🐲 𝙭𝚜𝚢𝚜𝚞𝚒
-࿇ ══━━━━✥🌹✥━━━━══ ࿇
+* ┃ 👽 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙
+* ┃ 👽 𝙭𝚊𝙣𝙙𝚛𝙤𝙞𝙙2
+* ┃ 👽 𝙨𝚢𝚜𝚝𝚎𝚖𝚞𝚒𝚌𝚑
+* ┃ 👽 𝙭𝚜𝚢𝚜𝚞𝚒
+࿇ ══━━━━✥🦠✥━━━━══ ࿇
 
 *╔═❖• 𝙸𝙾𝚂 𝙱𝚄𝙶 ⛔* 
-* ┃ 🐲 𝙭𝚒𝚘𝚜
-* ┃ 🐲 𝙭𝚒𝚘𝚜2
-࿇ ══━━━━✥🌹✥━━━━══ ࿇
+* ┃ 👽 𝙭𝚒𝚘𝚜
+* ┃ 👽 𝙭𝚒𝚘𝚜2
+࿇ ══━━━━✥🦠✥━━━━══ ࿇
 
 *╔═❖• 𝙶𝚁𝙾𝚄𝙿  𝙱𝚄𝙶 🦠* 
-* ┃ 🐲 𝙭𝚐𝚌
-࿇ ══━━━━✥🌹✥━━━━══ ࿇
+* ┃ 👽 𝙭𝚐𝚌
+࿇ ══━━━━✥🦠✥━━━━══ ࿇
 
 *╔═❖• 𝙾𝚆𝙽𝙴𝚁  𝙼𝙴𝙽𝙐 🛡️*  
-> 🐲 ɢᴇᴛsᴇssɪᴏɴ
-> 🐲 ᴅᴇʟᴇᴛᴇssɪᴏɴ
-> 🐲 ᴘᴘ
-> 🐲 ᴊᴏɪɴ
-> 🐲 sʜᴜᴛᴅᴏᴡɴ  
-> 🐲 ʀᴇsᴛᴀʀᴛ
-> 🐲 ᴀᴜᴛᴏʀᴇᴀᴅ 
-> 🐲 ᴀᴜᴛᴏᴛʏᴘɪɴɢ 
-> 🐲 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅɪɴɢ 
-> 🐲 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅᴛʏᴘ 
-> 🐲 ᴀᴜᴛᴏsᴡᴠɪᴇᴡ 
-> 🐲 ᴍᴏᴅᴇ 
-> 🐲 ʙʟᴏᴄᴋ
-> 🐲 ᴜɴʙʟᴏᴄᴋ 
-> 🐲 ʙᴀᴄᴋᴜᴘ
-> 🐲 ɢᴇᴛᴄᴀsᴇ
-> 🐲 ᴀᴅᴅᴏᴡɴᴇʀ
-> 🐲 ᴅᴇʟᴏᴡɴᴇʀ
-> 🐲 ʙᴄɢᴄ
-࿇ ══━━━━✥🌹✥━━━━══ ࿇
+> 👽 ɢᴇᴛsᴇssɪᴏɴ
+> 👽 ᴅᴇʟᴇᴛᴇssɪᴏɴ
+> 👽 ᴘᴘ
+> 👽 ᴊᴏɪɴ
+> 👽 sʜᴜᴛᴅᴏᴡɴ  
+> 👽 ʀᴇsᴛᴀʀᴛ
+> 👽 ᴀᴜᴛᴏʀᴇᴀᴅ 
+> 👽 ᴀᴜᴛᴏᴛʏᴘɪɴɢ 
+> 👽 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅɪɴɢ 
+> 👽 ᴀᴜᴛᴏʀᴇᴄᴏʀᴅᴛʏᴘ 
+> 👽 ᴀᴜᴛᴏsᴡᴠɪᴇᴡ 
+> 👽 ᴍᴏᴅᴇ 
+> 👽 ʙʟᴏᴄᴋ
+> 👽 ᴜɴʙʟᴏᴄᴋ 
+> 👽 ʙᴀᴄᴋᴜᴘ
+> 👽 ɢᴇᴛᴄᴀsᴇ
+> 👽 ᴀᴅᴅᴏᴡɴᴇʀ
+> 👽 ᴅᴇʟᴏᴡɴᴇʀ
+> 👽 ʙᴄɢᴄ
+࿇ ══━━━━✥🦠✥━━━━══ ࿇
 
 *╔═❖• 𝙶𝚁𝙾𝚄𝙿  𝙼𝙴𝙽𝚄 ⚙️*
-* ┃ 🐲 ᴄʟᴏsᴇᴛɪᴍᴇ
-* ┃ 🐲 ᴏᴘᴇɴᴛɪᴍᴇ
-* ┃ 🐲 ᴋɪᴄᴋ 
-* ┃ 🐲 ᴀᴅᴅ
-* ┃ 🐲 ᴘʀᴏᴍᴏᴛᴇ
-* ┃ 🐲 ᴅᴇᴍᴏᴛᴇ
-* ┃ 🐲 sᴇᴛᴅᴇsᴄ
-* ┃ 🐲 sᴇᴛᴘᴘɢᴄ
-* ┃ 🐲 ᴛᴀɢᴀʟʟ
-* ┃ 🐲 ʜɪᴅᴇᴛᴀɢ
-* ┃ 🐲 ᴛᴏᴛᴀɢ
-* ┃ 🐲 ɢʀᴏᴜᴘ 
-* ┃ 🐲 ᴇᴅɪᴛɪɴғᴏ
-* ┃ 🐲 ʟɪɴᴋɢᴄ
-* ┃ 🐲 ʀᴇᴠᴏᴋᴇ
-* ┃ 🐲 ʟɪsᴛᴏɴʟɪɴᴇ
-࿇ ══━━━━✥🌹✥━━━━══ ࿇
+* ┃ 👽 ᴄʟᴏsᴇᴛɪᴍᴇ
+* ┃ 👽 ᴏᴘᴇɴᴛɪᴍᴇ
+* ┃ 👽 ᴋɪᴄᴋ 
+* ┃ 👽 ᴀᴅᴅ
+* ┃ 👽 ᴘʀᴏᴍᴏᴛᴇ
+* ┃ 👽 ᴅᴇᴍᴏᴛᴇ
+* ┃ 👽 sᴇᴛᴅᴇsᴄ
+* ┃ 👽 sᴇᴛᴘᴘɢᴄ
+* ┃ 👽 ᴛᴀɢᴀʟʟ
+* ┃ 👽 ʜɪᴅᴇᴛᴀɢ
+* ┃ 👽 ᴛᴏᴛᴀɢ
+* ┃ 👽 ɢʀᴏᴜᴘ 
+* ┃ 👽 ᴇᴅɪᴛɪɴғᴏ
+* ┃ 👽 ʟɪɴᴋɢᴄ
+* ┃ 👽 ʀᴇᴠᴏᴋᴇ
+* ┃ 👽 ʟɪsᴛᴏɴʟɪɴᴇ
+࿇ ══━━━━✥🦠✥━━━━══ ࿇
 
 *╔═❖• 𝙈𝒶𝒾𝓃  𝙼𝙴𝙽𝙐 ℹ️*
-> 🐲 ᴍᴇɴᴜ
-> 🐲 ʙᴜʏᴘʀᴇᴍɪᴜᴍ
-> 🐲 ʀᴜɴᴛɪᴍᴇ
-> 🐲 sᴄʀɪᴘᴛ
-> 🐲 ᴅᴏɴᴀᴛᴇ
-> 🐲 ᴏᴡɴᴇʀ
-> 🐲 ᴊᴇᴀɴᴘᴀʀᴋᴇʀ
-࿇ ══━━━━✥🌹✥━━━━══ ࿇
+> 👽 ᴍᴇɴᴜ
+> 👽 ʙᴜʏᴘʀᴇᴍɪᴜᴍ
+> 👽 ʀᴜɴᴛɪᴍᴇ
+> 👽 sᴄʀɪᴘᴛ
+> 👽 ᴅᴏɴᴀᴛᴇ
+> 👽 ᴏᴡɴᴇʀ
+> 👽 ᴊᴇᴀɴᴘᴀʀᴋᴇʀ
+࿇ ══━━━━✥🦠✥━━━━══ ࿇
 
 *╔═❖• 𝙲𝙾𝙽𝙑𝙴𝚁𝚃 🔂*
-* ┃ 🐲 sᴛɪᴄᴋᴇʀ
-* ┃ 🐲 sᴍᴇᴍᴇ
-* ┃ 🐲 ᴛᴀᴋᴇ
-* ┃ 🐲 ᴛᴏɪᴍᴀɢᴇ
-* ┃ 🐲 ᴛᴏᴠɪᴅᴇᴏ
-* ┃ 🐲 ᴛᴏᴀᴜᴅɪᴏ
-* ┃ 🐲 ᴛᴏᴍᴘ3
-* ┃ 🐲 ᴛᴏᴠɴ
-* ┃ 🐲 ᴛᴏɢɪғ
-* ┃ 🐲 ᴛᴏᴜʀʟ
-* ┃ 🐲 ᴛᴏǫʀ
-* ┃ 🐲 ᴛᴏᴠɪᴇᴡᴏɴᴄᴇ
-* ┃ 🐲 ғʟɪᴘᴛᴇxᴛ
-* ┃ 🐲 ᴇᴍᴏᴊɪᴍɪx
-࿇ ══━━━━✥🌹✥━━━━══ ࿇
+* ┃ 👽 sᴛɪᴄᴋᴇʀ
+* ┃ 👽 sᴍᴇᴍᴇ
+* ┃ 👽 ᴛᴀᴋᴇ
+* ┃ 👽 ᴛᴏɪᴍᴀɢᴇ
+* ┃ 👽 ᴛᴏᴠɪᴅᴇᴏ
+* ┃ 👽 ᴛᴏᴀᴜᴅɪᴏ
+* ┃ 👽 ᴛᴏᴍᴘ3
+* ┃ 👽 ᴛᴏᴠɴ
+* ┃ 👽 ᴛᴏɢɪғ
+* ┃ 👽 ᴛᴏᴜʀʟ
+* ┃ 👽 ᴛᴏǫʀ
+* ┃ 👽 ᴛᴏᴠɪᴇᴡᴏɴᴄᴇ
+* ┃ 👽 ғʟɪᴘᴛᴇxᴛ
+* ┃ 👽 ᴇᴍᴏᴊɪᴍɪx
+࿇ ══━━━━✥🦠✥━━━━══ ࿇
 
 *╔═❖•  𝘼𝕌𝒯𝒪 𝙱𝙶𝙼, 📢*
-> 🐲 ᴀᴅᴅvɪᴅᴇᴏ
-> 🐲 ᴀᴅᴅ𝒾ᴍᴀɢᴇ
-> 🐲 ᴀᴅᴅsᴛɪᴄᴋᴇʀ
-> 🐲 ᴀᴅᴅvɴ
-> 🐲 ᴀᴅᴅᴢɪᴘ
-> 🐲 ᴀᴅᴅᴀ𝓅𝓀
-> 🐲 ᴀᴅᴅᴘᴅ
-> 🐲 ᴅᴇʟvɪᴅᴇᴏ
-> 🐲 ᴅᴇʟ𝒾ᴍᴀɢᴇ
-> 🐲 ᴅᴇʟsᴛɪᴄᴋᴇʀ
-> 🐲 ᴅᴇʟvɴ
-> 🐲 ᴅᴇʟᴢɪᴘ
-> 🐲 ᴅᴇʟᴀ𝓅𝓀
-> 🐲 ᴅᴇʟᴘᴅ
-> 🐲 ʟɪsᴛvɪᴅᴇᴏ
-> 🐲 ʟɪsᴛ𝒾ᴍᴀɢᴇ
-> 🐲 ʟɪsᴛsᴛɪᴄᴋᴇʀ
-> 🐲 ʟɪsᴛvɴ
-> 🐲 ʟɪsᴛᴢɪᴘ
-> 🐲 ʟɪsᴛᴀ𝓅𝓀
-> 🐲 ʟɪsᴛᴘᴅ
-࿇ ══━━━━✥🌹✥━━━━══ ࿇
+> 👽 ᴀᴅᴅvɪᴅᴇᴏ
+> 👽 ᴀᴅᴅ𝒾ᴍᴀɢᴇ
+> 👽 ᴀᴅᴅsᴛɪᴄᴋᴇʀ
+> 👽 ᴀᴅᴅvɴ
+> 👽 ᴀᴅᴅᴢɪᴘ
+> 👽 ᴀᴅᴅᴀ𝓅𝓀
+> 👽 ᴀᴅᴅᴘᴅ
+> 👽 ᴅᴇʟvɪᴅᴇᴏ
+> 👽 ᴅᴇʟ𝒾ᴍᴀɢᴇ
+> 👽 ᴅᴇʟsᴛɪᴄᴋᴇʀ
+> 👽 ᴅᴇʟvɴ
+> 👽 ᴅᴇʟᴢɪᴘ
+> 👽 ᴅᴇʟᴀ𝓅𝓀
+> 👽 ᴅᴇʟᴘᴅ
+> 👽 ʟɪsᴛvɪᴅᴇᴏ
+> 👽 ʟɪsᴛ𝒾ᴍᴀɢᴇ
+> 👽 ʟɪsᴛsᴛɪᴄᴋᴇʀ
+> 👽 ʟɪsᴛvɴ
+> 👽 ʟɪsᴛᴢɪᴘ
+> 👽 ʟɪsᴛᴀ𝓅𝓀
+> 👽 ʟɪsᴛᴘᴅ
+࿇ ══━━━━✥🦠✥━━━━══ ࿇
 
 *╔═❖• 𝙳𝙾𝚆𝙽𝙇𝙾𝒶𝒹 ⬇️*
-* ┃ 🐲 ᴘ𝓵𝒶ʏ
-* ┃ 🐲 ʏᴛᴍ𝓃
-* ┃ 🐲 ʏᴛᴍ𝓅4
-* ┃ 🐲 sᴏᴜɴᴅ1 - sᴏᴜɴᴅ161
+* ┃ 👽 ᴘ𝓵𝒶ʏ
+* ┃ 👽 ʏᴛᴍ𝓃
+* ┃ 👽 ʏᴛᴍ𝓅4
+* ┃ 👽 sᴏᴜɴᴅ1 - sᴏᴜɴᴅ161
 ࿇ ══━━━━✥🌹✥━━━━══ ࿇
-╰┈➤❇️𝙵𝙰𝙼𝙸𝙻𝙻𝙴 𝙶𝚁𝙸𝙼𝙼❇️࿐ྂ
+╰┈➤👽 Merci beaucoup ☣️࿐ྂ
 *Illustré  Par*
-> 🌹𝐌𝐑.𝐊É𝐕𝐈𝐍 𝐓𝐒𝐇🌹 ✓`
+> 匚卄卂ᗪ尺ㄖ❐👨‍💻 ✓`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         text: xeonmenuoh,
@@ -2443,7 +2443,7 @@ if (typemenu === 'v1') {
       externalAdReply: {
       title: botname,
       body: ownername,
-      thumbnailUrl: 'https://telegra.ph/file/bba6cce75b7d6bf42e58a.jpg',
+      thumbnailUrl: 'https://telegra.ph/file/26aae87c1132897112fc0.jpg',
       sourceUrl: ``,
       mediaType: 1,
       renderLargerThumbnail: true
