@@ -32,7 +32,7 @@
 
   
 
-<a href='https://github.com/altesse066/Alien-ultra-V69-/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
+<a href='https://github.com/Chadro14/Alien-V666-/tree/main/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
 👆👆
 
